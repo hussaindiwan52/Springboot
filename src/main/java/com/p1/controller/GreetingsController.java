@@ -9,5 +9,9 @@ public class GreetingsCOntroller {
     public String helloworldHussain() {
         return "Hello World!!";
     }
+    @GetMapping(value = "/kanchan")
+    public String helloworldKanchan() {
+        return "Hello World!!";
+    }
 
 }
